@@ -1,0 +1,56 @@
+body {
+    font-family: 'Inter';
+    background-color: black;
+    color: white;
+    padding: 16px;
+}
+
+header .logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+header div {
+    width: 100%;
+}
+
+header div .logo {
+    width: 83px;
+    height: 22.21px;
+}
+
+header div .botoes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 40px;
+    padding: 8px 0;
+    font-weight: 700;
+}
+
+header div .botoes ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+header div .botoes ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0 8px;
+    cursor: pointer;
+}
+
+header div .botoes ul .buy-button-container {
+    height: 40px;
+    border: solid 1.5px white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+}
+
+header div .botoes ul li a {
+    font-weight: 400;
+}
