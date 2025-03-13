@@ -91,13 +91,10 @@ main section div .paragraph1 {
 main section div .saiba-mais-container {
     border: solid 1px white;
     border-radius: 10px;
-    width: 172px;
+    width: 100%;
     height: 52px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-main section div .saiba-mais-container a {
-    height: min-content;
+    cursor: pointer;
 }
