@@ -121,3 +121,23 @@ main .section3 {
     margin-top: 0;
     font-size: 36px;
 }
+
+footer {
+    background-color: white;
+    color: black;
+    padding: 16px;
+}
+
+footer .logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+footer .refs {
+    cursor: pointer;
+}
+
+footer .paragraph3 {
+    text-align: center;
+    padding: 32px;
+}
