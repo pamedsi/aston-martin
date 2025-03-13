@@ -9,6 +9,10 @@ body {
 
 /* Cabeçalho */
 
+header {
+    margin-bottom: 64px;
+}
+
 header .logo-container {
     display: flex;
     justify-content: center;
@@ -67,6 +71,10 @@ main {
     margin: 16px 0;
 }
 
+main section {
+    margin: 16px 0;
+}
+
 main section .carro1 {
     width: 100%;
 }
@@ -83,7 +91,7 @@ main section div .title .dbs {
     font-weight: 700;
 }
 
-main section div .paragraph1 {
+main section div .paragraph2 {
     margin-top: 0;
     font-weight: 300;
 }
@@ -97,4 +105,19 @@ main section div .saiba-mais-container {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+}
+
+main section .carro2 {
+    width: 100%;
+}
+
+main .section3 {
+    padding: 16px;
+    border-radius: 12px;
+    background: linear-gradient(to top, #91282F, #330002)
+}
+
+.section3 div h2 {
+    margin-top: 0;
+    font-size: 36px;
 }
