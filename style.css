@@ -141,3 +141,35 @@ footer .paragraph3 {
     text-align: center;
     padding: 32px;
 }
+
+@media screen and (min-width: 1024px) {
+
+    header {
+        display: flex;
+        align-items: center;
+    }
+
+    header .logo-container {
+        width: min-content;
+    }
+
+    header div .botoes {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 64px;
+    }
+    
+    header div .botoes ul {
+        display: flex;
+        width: 478px;
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+    header {
+        margin: 0 auto;
+        width: 1280px;
+    }
+
+}
