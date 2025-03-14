@@ -26,11 +26,13 @@ header div .logo {
 header div .botoes {
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: space-around;
-    height: 40px;
+    min-height: 40px;
     padding: 8px 0;
     font-weight: 700;
 }
+
 
 header div .botoes ul {
     display: flex;
@@ -48,18 +50,29 @@ header div .botoes ul li {
     cursor: pointer;
 }
 
-header div .botoes ul .buy-button-container {
+header div nav .buy-button {
     height: 40px;
     border: solid 1.5px white;
     border-radius: 10px;
     display: flex;
     align-items: center;
+    padding: 0 16px;
+    margin-top: 16px;
+    cursor: pointer;
 }
 
-header div .botoes ul li a {
-    margin: 0 8px;
-    font-weight: 400;
+@media screen and (min-width: 500px) {
+    header div .botoes {
+        flex-direction: row;
+    }
+    
+    header div nav .buy-button {
+        margin: 0;
+        font-weight: 400;
+        margin-left: 6.5vw;
+    }
 }
+
 
 .line1 {
     margin-bottom: 152px;
@@ -114,6 +127,19 @@ main .section3 {
     padding: 16px;
     border-radius: 12px;
     background: linear-gradient(to top, #91282F, #330002)
+}
+
+main .section3 .container-car3 {
+    display: flex;
+    justify-content: center;
+}
+
+main .section3 .container-car3 .car3 {
+    width: 100%;
+}
+
+main .section3 .card3 h2 {
+    margin: 0;
 }
 
 .footer-container {
