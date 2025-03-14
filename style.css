@@ -9,10 +9,6 @@ body {
 
 /* Cabeçalho */
 
-header {
-    /* margin-bottom: 64px; */
-}
-
 header .logo-container {
     display: flex;
     justify-content: center;
@@ -65,6 +61,9 @@ header div .botoes ul li a {
     font-weight: 400;
 }
 
+.line1 {
+    margin-bottom: 152px;
+}
 /* Main */
 
 main {
@@ -188,8 +187,28 @@ footer .paragraph3 {
     }
 
     main .section2 .card2 {
-        /* padding: 32px; */
         margin-left: 32px;
+    }
+
+    main .section3 .card3 {
+        width: 426px;
+    }
+
+    main .section3 .card3 h2 {
+        margin-bottom: 0;
+    }
+
+    main .section3 {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row-reverse;
+        background: linear-gradient(to right, #91282F, #330002);
+    }
+
+    main .section3 .card3 .saiba-mais-container {
+        width: 217.44px !important;
+        background-color: black;
     }
 
 }
@@ -202,8 +221,17 @@ footer .paragraph3 {
     }
 
     main {
-        margin-top: 128px;
         padding: 32px
+    }
+
+    .footer-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    footer {
+        width: 1280px;
     }
 
 }
