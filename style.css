@@ -10,7 +10,7 @@ body {
 /* Cabeçalho */
 
 header {
-    margin-bottom: 64px;
+    /* margin-bottom: 64px; */
 }
 
 header .logo-container {
@@ -156,20 +156,54 @@ footer .paragraph3 {
     header div .botoes {
         display: flex;
         justify-content: flex-end;
-        margin-right: 64px;
     }
-    
+
+    main {
+        margin-top: 128px;
+        padding: 32px
+    }
+
     header div .botoes ul {
         display: flex;
         width: 478px;
     }
 
+    main .section1 {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    main .section1 .carro1 {
+        width: 66%;
+    }
+
+    .saiba-mais-container {
+        width: 172px !important;
+    }
+
+    main .section2 {
+        display: flex;
+        align-items: center;
+    }
+
+    main .section2 .card2 {
+        /* padding: 32px; */
+        margin-left: 32px;
+    }
+
 }
 
-@media screen and (min-width: 1280px) {
-    header {
+@media screen and (min-width: 1350px) {
+
+    header, main {
         margin: 0 auto;
         width: 1280px;
+    }
+
+    main {
+        margin-top: 128px;
+        padding: 32px
     }
 
 }
